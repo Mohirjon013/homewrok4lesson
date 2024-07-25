@@ -28,6 +28,16 @@
 // }
 // console.log(arr);
 
+// 4-masala
+// let  arr = [2,3,4,52,2,3,4,53,2,23,43,2]
+// let max = arr[0]
+// for(let num of arr){
+//     if(num > max){
+//         max = num
+//     }
+// }
+// console.log(max);
+
 // 5-masala
 // let numbers = [54,32,76,12,22]
 // let evenRes = 0
@@ -207,17 +217,22 @@
 // let numbers = [1,2,3,4,5,6,7,8,9]
 // let evenRes = []
 // let oddRes = []
-// for(num of numbers){
+// for(let num of numbers){
 //     if(num % 2 == 0){
-//         evenRes.pop(num)
-        
+//         evenRes.push(num)
+//     }
+//     else{
+//         oddRes.push(num)
 //     }
 // }
-// console.log(num);
+// console.log(`juftlari == ${evenRes}`);
+// console.log(`Toqlari == ${oddRes}`);
 
 // 15-masala
 // let arr = [8,7,6,5,4] 
 // let arr2 = []
-// for(let num of arr.reverse())
-// arr2.pop(arr)
-// console.log(arr);
+// for(let num of arr){
+//     arr2.unshift(num)
+// }
+
+// console.log(arr2);
